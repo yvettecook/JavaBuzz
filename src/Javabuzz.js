@@ -22,3 +22,6 @@ Javabuzz.prototype.says = function(number) {
 	if (this.isDivisibleByFive(number)) return "Buzz";
 	return number
 };
+
+// To play the game:
+// for (var i = 1; i <= 20; i++) { console.log(javabuzz.says(i)); }
